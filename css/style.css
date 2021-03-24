@@ -53,9 +53,8 @@ header p{
 
 div iframe{
   display: block; 
-  min-width: 100%; 
+  min-width: max-content; 
   min-height: 100%;
-  border: none;
 }
 
 /*Req 1*/
@@ -225,11 +224,10 @@ header{
 
   div iframe{
     display: block; 
-    min-width: 100%; 
+    min-width: 880px; 
     min-height: 100%;
-    border: none;
   }
-  
+
   /* div iframe{
     display: block; 
     min-width: 100%; 
