@@ -53,8 +53,8 @@ header p{
 
 div iframe{
   display: block; 
-  min-width: 1000px; 
-  min-height: 230%;
+  min-width: 100%; 
+  min-height: 100%;
   border: none;
 }
 
