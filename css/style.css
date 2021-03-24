@@ -176,10 +176,11 @@ header{
   padding: 0 4px;
 }
 
-.contacts{
+.contacttext{
   text-align: center;
-  color: white;
+  color: black;
   font-size: larger;
+  text-shadow: 2px 2px white;
 }
 /* Create four equal columns that sits next to each other */
 .column {
