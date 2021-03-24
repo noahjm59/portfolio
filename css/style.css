@@ -224,8 +224,8 @@ header{
 
   div iframe{
     display: block; 
-    min-width: 880px; 
-    min-height: 100%;
+    min-width: max-content; 
+    min-height: max-content;
   }
 
   /* div iframe{
