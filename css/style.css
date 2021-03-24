@@ -171,6 +171,11 @@ header{
   padding: 0 4px;
 }
 
+.contacts{
+  text-align: center;
+  color: white;
+  font-size: larger;
+}
 /* Create four equal columns that sits next to each other */
 .column {
   flex: 25%;
@@ -212,6 +217,12 @@ header{
      width:100%;
   }
   
+  .contacts{
+    text-align: center;
+    color: white;
+    font-size: larger;
+  }
+
   /* div iframe{
     display: block; 
     min-width: 100%; 
