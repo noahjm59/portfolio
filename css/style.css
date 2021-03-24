@@ -223,6 +223,13 @@ header{
     font-size: larger;
   }
 
+  div iframe{
+    display: block; 
+    min-width: 100%; 
+    min-height: 100%;
+    border: none;
+  }
+  
   /* div iframe{
     display: block; 
     min-width: 100%; 
