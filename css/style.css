@@ -227,23 +227,16 @@ header{
   .embedres{
     position: relative;
     overflow: hidden;
-    padding-top: 77.27%;
   }
 
   div iframe{
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 120%;
     height: 100%;
   }
 
-  /* div iframe{
-    display: block; 
-    min-width: 100%; 
-    min-height: 100%;
-    border: none;
-  } */
   /*Req 10*/
   nav{
     padding: 30px 0px;
