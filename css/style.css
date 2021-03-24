@@ -161,6 +161,13 @@ header{
   grid-row: 4 / span 1;
 }
 
+.contacttext{
+  text-align: center;
+  color: black;
+  font-size: larger;
+  text-shadow: 2px 2px white;
+}
+
 /*Req 9*/
 .text{
   background-color: rgba(255, 255, 255, .8);
