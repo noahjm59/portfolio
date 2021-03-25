@@ -127,14 +127,14 @@ header{
   /*Set background-image to header.jpg */
 }
 /*Req 7a*/
-.about, .method, .client, .contacts{
+.about, .method {
   /*Your Code Here*/
   grid-column: 2 / span 2;
 
 }
 
 /*Req 8a, 8b, and 8c*/
-.about-image, .method-image, .client-image, .contact-image{
+.about-image, .method-image {
   /*Your Code Here*/
   grid-column: 1 / span 4;
   max-height: 650px;
@@ -153,17 +153,6 @@ header{
   grid-row: 2 / span 1;
 }
 
-/*Req 7b & 8d*/
-.client, .client-image{
-    /*Your Code Here*/
-  grid-row: 3 / span 1;
-}
-
-/*Req 7b & 8d*/
-.contacts, .contact-image{
-    /*Your Code Here*/
-  grid-row: 4 / span 1;
-}
 
 .contacttext{
   text-align: center;
@@ -301,10 +290,6 @@ header{
 
 
 
-/*You do not need to modify any code below this line.
-It is included for accessibility to turn off animations
-and movement for people who have modified their 
-preferences to reduce motion.*/
 
 @media screen and (prefers-reduced-motion: reduce){
   html{
