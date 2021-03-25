@@ -15,7 +15,7 @@ h1{
   padding: 50px 0;
   text-align: center;
   color: black;
-  text-shadow: 2px 2px #ffffff;
+  mix-blend-mode: color-burn;
 }
 
 h2{
@@ -54,6 +54,7 @@ header p{
   padding: 0 100px;
   text-align: center;
   text-shadow: 2px 2px #ffffff;
+  mix-blend-mode: color-burn;
 }
 /*END STARTER CSS - DO NO CHANGE*/
 
