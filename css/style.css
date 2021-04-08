@@ -3,7 +3,7 @@ html{
 }
 
 body{
-  background-color: #81dbff;
+  background-color: rgb(92, 92, 235);
   font-size: 18px;
   margin: 0;
   padding: 0;
@@ -31,14 +31,14 @@ nav li{
 
 nav ul li a.active-page{
   display:inline;
-  padding-right:20px;
-  border-bottom: 3px solid black;
+  
+  border: 3px solid black;
 }
 
 
 nav{
-  background-color: #ddd;
-  padding: 25px 0; 
+  background-color: white;
+  padding: 35px 0; 
   text-align: left;
 }
 
@@ -122,19 +122,19 @@ header{
   /*Set margin */
   margin-bottom: 25px;
   /*Req 6b*/
-  background-image: url("../images/header.jpg");
+  background-color: rgb(92, 92, 235);
   filter: brightness(140%);
   /*Set background-image to header.jpg */
 }
 /*Req 7a*/
-.about, .method {
+.about, .method, .final {
   /*Your Code Here*/
   grid-column: 2 / span 2;
 
 }
 
 /*Req 8a, 8b, and 8c*/
-.about-image, .method-image {
+.about-image, .method-image, .final-image {
   /*Your Code Here*/
   grid-column: 1 / span 4;
   max-height: 650px;
@@ -153,6 +153,11 @@ header{
   grid-row: 2 / span 1;
 }
 
+/*Req 7b & 8d*/
+.final, .final-image{
+  /*Your Code Here*/
+ grid-row: 3 / span 1;
+}
 
 .contacttext{
   text-align: center;
@@ -211,7 +216,80 @@ header{
   }
 }
 
+@media all and (min-width: 400px){
+  
+  .resumehead {
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px black;
+  }
 
+  img{
+     width:100%;
+  }
+  
+  .contacts{
+    text-align: center;
+    color: white;
+    font-size: larger;
+  }
+
+  .embedres{
+    position: relative;
+    overflow: hidden;
+  }
+
+  div iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 120%;
+    height: 100%;
+  }
+
+  /*Req 10*/
+  nav{
+    padding: 30px 0px;
+    /*Your code here:*/
+    text-align: center;
+  }
+
+  /*Req 11*/
+  .container{
+    /*Your code here:*/
+    display: grid;
+    grid-template-columns: 50px auto 500px auto 50px;
+    grid-template-rows: 400px 425px 425px 400px;
+  }
+
+  /*Req 12*/
+  .about, .final, .method-image, .contact-image{
+    /*Your code here:*/
+    grid-column: 3 / span 2;
+  }
+
+  /*Req 13*/
+  .about-image, .final-image, .method, .contacts{
+    /*Your code here:*/
+    grid-column: 2 / span 2;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create two equal columns that sits next to each other */
+  .column {
+    flex: 50%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+  }
+}
 
 @media all and (min-width: 880px){
   
