@@ -60,18 +60,21 @@ header p{
 }
 /*END STARTER CSS - DO NO CHANGE*/
 
-/* div iframe{
-  display: block; 
-  min-width: max-content; 
-  min-height: 100%;
-} */
+div img {
+  width: 50%;
+  margin: auto;
+  max-height: 60%;
+}
 
-iframe {
-  width: 100%;
-  height: 100%;
-  position:relative;
+div p {
+  background-color: rgba(255, 255, 255, .8);
+  border: 10px solid black;
+  padding: 30px;
+  /*Your code here:*/
+  margin: 10px;
 
 }
+
 
 /*Req 1*/
 nav a{
@@ -239,6 +242,23 @@ header{
      width:100%;
   }
   
+  div img {
+    display: block;
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 60%;
+    
+  }
+  
+  div p {
+    background-color: rgba(255, 255, 255, .8);
+    border: 10px solid black;
+    padding: 30px;
+    /*Your code here:*/
+    margin: 10px;
+  }
+
   .contacts{
     text-align: center;
     color: white;
@@ -325,13 +345,20 @@ header{
     overflow: hidden;
   }
 
-  /* div iframe{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 120%;
-    height: 100%;
-  } */
+  div img {
+    width: 35%;
+    margin: auto;
+    max-height: 60%;
+    float: left;
+  }
+  
+  div p {
+    background-color: rgba(255, 255, 255, .8);
+    border: 10px solid black;
+    padding: 30px;
+    /*Your code here:*/
+    margin: 10px;
+  }
 
   /*Req 10*/
   nav{
