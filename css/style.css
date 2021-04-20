@@ -60,13 +60,13 @@ header p{
 }
 /*END STARTER CSS - DO NO CHANGE*/
 
-div img {
+.resume{
   width: 50%;
   margin: auto;
   max-height: 60%;
 }
 
-div p {
+.res_text {
   background-color: rgba(255, 255, 255, .8);
   border: 10px solid black;
   padding: 30px;
@@ -242,7 +242,7 @@ header{
      width:100%;
   }
   
-  div img {
+  .resume {
     display: block;
     width: 35%;
     margin-left: auto;
@@ -251,7 +251,7 @@ header{
     
   }
   
-  div p {
+  .res_text {
     background-color: rgba(255, 255, 255, .8);
     border: 10px solid black;
     padding: 30px;
@@ -345,14 +345,14 @@ header{
     overflow: hidden;
   }
 
-  div img {
+  .resume {
     width: 35%;
     margin: auto;
     max-height: 60%;
     float: left;
   }
   
-  div p {
+  .res_text {
     background-color: rgba(255, 255, 255, .8);
     border: 10px solid black;
     padding: 30px;
