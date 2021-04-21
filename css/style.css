@@ -75,6 +75,14 @@ header p{
 
 }
 
+.contact_text {
+  background-color: rgba(255, 255, 255, .8);
+  border: 10px solid black;
+  padding: 30px;
+  /*Your code here:*/
+  margin: 10px;
+}
+
 
 /*Req 1*/
 nav a{
@@ -230,7 +238,7 @@ header{
   }
 }
 
-@media all and (min-width: 400px){
+@media all and (min-width: 100px){
   
   .resumehead {
     text-align: center;
@@ -243,11 +251,12 @@ header{
   }
   
   .resume {
-    width: 50%;
+    width: 60%;
+    margin: auto;
     margin-left: auto;
     margin-right: auto;
-    max-height: 60%;
-    
+    align-self: center;
+    align-content: center;
   }
 
   .resumehead {
@@ -257,6 +266,14 @@ header{
   }
   
   .res_text {
+    background-color: rgba(255, 255, 255, .8);
+    border: 10px solid black;
+    padding: 30px;
+    /*Your code here:*/
+    margin: 10px;
+  }
+  
+  .contact_text {
     background-color: rgba(255, 255, 255, .8);
     border: 10px solid black;
     padding: 30px;
@@ -358,6 +375,14 @@ header{
   }
   
   .res_text {
+    background-color: rgba(255, 255, 255, .8);
+    border: 10px solid black;
+    padding: 30px;
+    /*Your code here:*/
+    margin: 10px;
+  }
+
+  .contact_text {
     background-color: rgba(255, 255, 255, .8);
     border: 10px solid black;
     padding: 30px;
