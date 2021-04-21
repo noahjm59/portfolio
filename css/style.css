@@ -101,12 +101,11 @@ nav a:hover{
   background: white;
   left: 0;
   padding: 7px;
-  -webkit-transition: top 1s ease-out;
-  transition: top 1s ease-out;
+  -webkit-transition: top 2s ease-out;
+  transition: top 2s ease-out;
   z-index: 1;
   position: absolute;
   top: -50px;
-  /*Your code here*/
 }
 /*Req 3b*/
 /*Write selector/rule property to position the skip class element*/
@@ -129,24 +128,21 @@ nav a:hover{
 }
 
 header{
-  background-attachment: fixed; /* Parallax effect */     
-  background-position: center;  /* Parallax effect */
-  background-repeat: no-repeat; /* Parallax effect */
-  background-size: cover;       /* Parallax effect */
+  background-attachment: fixed;    
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover;
   color: white;
-  height: 400px;                /* Parallax effect */
+  height: 400px; 
     
-  /*Req 6a*/
-  /*Set margin */
+
   margin-bottom: 25px;
-  /*Req 6b*/
   background-color: rgb(92, 92, 235);
   filter: brightness(140%);
-  /*Set background-image to header.jpg */
 }
 /*Req 7a*/
 .about, .method, .final {
-  /*Your Code Here*/
+
   grid-column: 2 / span 2;
 
 }
@@ -154,7 +150,7 @@ header{
 /*Req 8a, 8b, and 8c*/
 .about-image, .method-image, .final-image {
   /*Your Code Here*/
-  grid-column: 1 / span 4;
+  grid-column: 1 / span 3;
   max-height: 650px;
   overflow: hidden;
 }
@@ -257,6 +253,12 @@ header{
     margin-right: auto;
     align-self: center;
     align-content: center;
+    float: none;
+
+    background-attachment: fixed; /* Parallax effect */     
+    background-position: center;  /* Parallax effect */
+    background-repeat: no-repeat; /* Parallax effect */
+    background-size: cover;       /* Parallax effect */
   }
 
   .resumehead {
@@ -332,7 +334,6 @@ header{
     padding: 0 4px;
   }
   
-  /* Create two equal columns that sits next to each other */
   .column {
     flex: 50%;
     padding: 0 4px;
@@ -378,7 +379,7 @@ header{
     background-color: rgba(255, 255, 255, .8);
     border: 10px solid black;
     padding: 30px;
-    /*Your code here:*/
+    
     margin: 10px;
   }
 
@@ -386,34 +387,25 @@ header{
     background-color: rgba(255, 255, 255, .8);
     border: 10px solid black;
     padding: 30px;
-    /*Your code here:*/
     margin: 10px;
   }
 
-  /*Req 10*/
   nav{
     padding: 30px 0px;
-    /*Your code here:*/
     text-align: right;
   }
 
-  /*Req 11*/
   .container{
-    /*Your code here:*/
     display: grid;
     grid-template-columns: 50px auto 500px auto 50px;
     grid-template-rows: 400px 425px 425px 400px;
   }
 
-  /*Req 12*/
   .about, .client, .method-image, .contact-image{
-    /*Your code here:*/
     grid-column: 3 / span 2;
   }
 
-  /*Req 13*/
   .about-image, .client-image, .method, .contacts{
-    /*Your code here:*/
     grid-column: 2 / span 2;
   }
   .row {
@@ -422,7 +414,7 @@ header{
     padding: 0 4px;
   }
   
-  /* Create two equal columns that sits next to each other */
+  
   .column {
     flex: 50%;
     padding: 0 4px;
@@ -448,7 +440,7 @@ header{
    }
 
   /*Turn off parallax*/
-  header{
+  .resume{
     background-attachment: initial;
   }
 }
